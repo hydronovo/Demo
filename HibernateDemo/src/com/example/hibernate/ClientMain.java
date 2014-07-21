@@ -89,9 +89,9 @@ public class ClientMain {
 //		System.out.println(clients.size());
 //		Client client = (Client) HibernateUtil.get(Client.class, 1);
 //		System.out.println(client.getId());
-		Client client = new Client();
-		client.setId(2l);
+		//Client client = new Client();
+		//client.setId(2l);
 		//HibernateUtil.delete(client);
-		HibernateUtil.get(Client.class, client);
+		//HibernateUtil.get(Client.class, client);
 	}
 }
