@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class Node {
 
 	private long				id;
-	private ArrayList<Integer>	attrTypes	= new ArrayList<>();
+	private ArrayList<Integer>	attrTypes	= new ArrayList<Integer>();
 
 	public long getId() {
 		return id;
