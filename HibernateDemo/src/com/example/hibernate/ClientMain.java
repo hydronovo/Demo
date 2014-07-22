@@ -14,7 +14,7 @@ import com.auto.Client;
 
 public class ClientMain {
 
-	@SuppressWarnings({ "unchecked"})
+	@SuppressWarnings({ "unchecked" })
 	public static <T> List<T> select(String sql, Object... params) {
 		List<T> list = new ArrayList<T>();
 		Session session = null;
@@ -84,14 +84,15 @@ public class ClientMain {
 		// }
 
 		// batchUpdate(clients);
-		//List<Client> clients = select("select * from Client where id = ? or id = ?", 1, 2);
-//		List<Client> clients = select("select * from Client");
-//		System.out.println(clients.size());
-//		Client client = (Client) HibernateUtil.get(Client.class, 1);
-//		System.out.println(client.getId());
-		//Client client = new Client();
-		//client.setId(2l);
-		//HibernateUtil.delete(client);
-		//HibernateUtil.get(Client.class, client);
+		// List<Client> clients =
+		// select("select * from Client where id = ? or id = ?", 1, 2);
+		// List<Client> clients = select("select * from Client");
+		// System.out.println(clients.size());
+		// Client client = (Client) HibernateUtil.get(Client.class, 1);
+		// System.out.println(client.getId());
+		// Client client = new Client();
+		// client.setId(2l);
+		// HibernateUtil.delete(client);
+		// HibernateUtil.get(Client.class, client);
 	}
 }
